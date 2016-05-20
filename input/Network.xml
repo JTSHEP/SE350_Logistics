@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network>
+	<Facility Name="Seattle">
+		<Connection Target="Fargo" Distance="1426"></Connection>
+		<Connection Target="San Francisco" Distance="808"></Connection></Facility>
+
+	<Facility Name="San Francisco">
+		<Connection Target="Seattle" Distance="808"></Connection>
+		<Connection Target="Denver" Distance="1249"></Connection>
+		<Connection Target="Los Angeles" Distance="382"></Connection></Facility>
+
+	<Facility Name="Los Angeles">
+		<Connection Target="San Francisco" Distance="382"></Connection>
+		<Connection Target="Phoenix" Distance="372"></Connection>
+		<Connection Target="Las Vegas" Distance="431"></Connection></Facility>
+
+	<Facility Name="Las Vegas">
+		<Connection Target="Los Angeles" Distance="431"></Connection>
+		<Connection Target="Phoenix" Distance="202"></Connection>
+		<Connection Target="Santa Fe" Distance="292"></Connection></Facility>
+
+	<Facility Name="Phoenix">
+		<Connection Target="Los Angeles" Distance="372"></Connection>
+		<Connection Target="Santa Fe" Distance="480"></Connection>
+		<Connection Target="Las Vegas" Distance="202"></Connection></Facility>
+
+	<Facility Name="Denver">
+		<Connection Target="San Francisco" Distance="1249"></Connection>
+		<Connection Target="Santa Fe" Distance="392"></Connection>
+		<Connection Target="Fargo" Distance="889"></Connection>
+		<Connection Target="St. Louis" Distance="851"></Connection></Facility>
+
+	<Facility Name="Santa Fe">
+		<Connection Target="Phoenix" Distance="480"></Connection>
+		<Connection Target="Denver" Distance="392"></Connection>
+		<Connection Target="St. Louis" Distance="1032"></Connection>
+		<Connection Target="Austin" Distance="688"></Connection>
+		<Connection Target="Las Vegas" Distance="292"></Connection></Facility>
+
+	<Facility Name="Fargo">
+		<Connection Target="Seattle" Distance="1426"></Connection>
+		<Connection Target="Denver" Distance="889"></Connection>
+		<Connection Target="Chicago" Distance="643"></Connection></Facility>
+
+	<Facility Name="Austin">
+		<Connection Target="Santa Fe" Distance="688"></Connection>
+		<Connection Target="St. Louis" Distance="825"></Connection>
+		<Connection Target="New Orleans" Distance="512"></Connection></Facility>
+
+	<Facility Name="Philadelphia">
+		<Connection Target="Chicago" Distance="790"></Connection>
+		<Connection Target="Detroit" Distance="521"></Connection>
+		<Connection Target="New York City" Distance="212"></Connection>
+		<Connection Target="Norfolk" Distance="431"></Connection>
+		<Connection Target="St. Louis" Distance="1099"></Connection></Facility>
+
+	<Facility Name="St. Louis">
+		<Connection Target="Chicago" Distance="297"></Connection>
+		<Connection Target="Nashville" Distance="309"></Connection>
+		<Connection Target="Austin" Distance="825"></Connection>
+		<Connection Target="Santa Fe" Distance="1032"></Connection>
+		<Connection Target="Denver" Distance="851"></Connection>
+		<Connection Target="Philadelphia" Distance="1099"></Connection></Facility>
+
+	<Facility Name="Chicago">
+		<Connection Target="Fargo" Distance="643"></Connection>
+		<Connection Target="St. Louis" Distance="297"></Connection>
+		<Connection Target="New York City" Distance="790"></Connection>
+		<Connection Target="Detroit" Distance="282"> </Connection>
+		<Connection Target="Philadelphia" Distance="790"></Connection></Facility>
+
+	<Facility Name="New Orleans">
+		<Connection Target="Austin" Distance="512"></Connection>
+		<Connection Target="Nashville" Distance="532"></Connection>
+		<Connection Target="Atlanta" Distance="469"></Connection>
+		<Connection Target="Miami" Distance="864"></Connection></Facility>
+
+	<Facility Name="Nashville">
+		<Connection Target="St. Louis" Distance="309"></Connection>
+		<Connection Target="New Orleans" Distance="532"></Connection>
+		<Connection Target="Norfolk" Distance="706"></Connection></Facility>
+
+	<Facility Name="Detroit">
+		<Connection Target="Chicago" Distance="282"></Connection>
+		<Connection Target="New York City" Distance="614"></Connection>
+		<Connection Target="Boston" Distance="719"></Connection>
+		<Connection Target="Philadelphia" Distance="521"></Connection></Facility>
+
+	<Facility Name="Boston">
+		<Connection Target="Detroit" Distance="719"></Connection>
+		<Connection Target="New York City" Distance="215"></Connection></Facility>
+
+	<Facility Name="New York City">
+		<Connection Target="Boston" Distance="215"></Connection>
+		<Connection Target="Detroit" Distance="614"></Connection>
+		<Connection Target="Chicago" Distance="790"></Connection>
+		<Connection Target="Norfolk" Distance="363"></Connection>
+		<Connection Target="Philadelphia" Distance="212"></Connection></Facility>
+
+	<Facility Name="Norfolk">
+		<Connection Target="New York City" Distance="363"></Connection>
+		<Connection Target="Nashville" Distance="706"></Connection>
+		<Connection Target="Atlanta" Distance="566"></Connection>
+		<Connection Target="Philadelphia" Distance="431"></Connection></Facility>
+
+	<Facility Name="Atlanta">
+		<Connection Target="Norfolk" Distance="566"></Connection>
+		<Connection Target="New Orleans" Distance="469"></Connection>
+		<Connection Target="Miami" Distance="663"></Connection></Facility>
+
+	<Facility Name="Miami">
+		<Connection Target="Atlanta" Distance="663"></Connection>
+		<Connection Target="New Orleans" Distance="864"></Connection></Facility>
+
+
+</Network>
